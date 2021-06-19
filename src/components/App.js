@@ -18,6 +18,7 @@ const App = () => {
   return (
     <div id="main">
       <input type="text" onChange={addChange} />
+      <h3>{localStorage.getItem('value')}</h3>
     </div>
   )
 }
